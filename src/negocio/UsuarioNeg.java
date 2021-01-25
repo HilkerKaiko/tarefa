@@ -57,6 +57,7 @@ public class UsuarioNeg {
 			
 			System.out.println("      *************     Fim do Cadastro de Usuario        ***************");
 
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

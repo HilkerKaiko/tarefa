@@ -58,6 +58,9 @@ public class UsuarioDaoImpl implements UsuarioDao {
 					"'" + usuario.getSenha() + "'    )";
 
 			statement.executeUpdate(sql);
+			
+			System.out.println("Usuario cadastrado com sucesso.");
+
 
 			
 		} catch (Exception e) {

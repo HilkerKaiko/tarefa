@@ -21,6 +21,8 @@ public class LogarNeg {
 		
 		while (!logado) {
 			
+			System.out.println("");
+
 			System.out.println("Digite o nome do usuario:");
 			usuarioDto.setLogin(bufRead.readLine());
 			
